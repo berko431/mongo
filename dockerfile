@@ -5,4 +5,4 @@ FROM python:3
 WORKDIR /app
 
 # Copy the Python file into the container
-COPY . .
+COPY hello_world.py .
